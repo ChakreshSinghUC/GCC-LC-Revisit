@@ -1,9 +1,18 @@
-#include <algorithm>
-#include <stdio.h>
-#include <vector>
+#include <bits/stdc++.h>
 
 using namespace std;
 // https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/?envType=daily-question&envId=2023-11-01
+// 1. sort the given array
+// 2. take the sums of the pairs made by taking 1 element from the sorted array
+// from both ends
+// 3. return the max sum of all such pair sums
+
+// Logical proof of correctness : In short - Nature love symmetry. Formally,
+// this can be proven by contradiction. In a sorted array a0, a1, ... , a9 (for
+// example) - the minimum maximum sum that has one element as a9, has to one of
+// the pairs : (a0, a9), (a1, a9) ... (a8, a9). since a0 is the smallest, the
+// mim max sum that has a9 as an element = a0+a9. Similarly, for a8, its =
+// a1+a8. So on an so forth.
 
 class Solution {
 public:
