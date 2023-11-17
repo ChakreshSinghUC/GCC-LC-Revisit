@@ -7,12 +7,13 @@ using namespace std;
 // from both ends
 // 3. return the max sum of all such pair sums
 
-// Logical proof of correctness : In short - Nature love symmetry. Formally,
-// this can be proven by contradiction. In a sorted array a0, a1, ... , a9 (for
-// example) - the minimum maximum sum that has one element as a9, has to one of
-// the pairs : (a0, a9), (a1, a9) ... (a8, a9). since a0 is the smallest, the
-// mim max sum that has a9 as an element = a0+a9. Similarly, for a8, its =
-// a1+a8. So on an so forth.
+// Logical proof of correctness : In short - Nature loves symmetry - And the law
+// of symmetry disctates that a sorted array with elements from both ends looks
+// more beautiful than anything else. Formally, this can be proven by
+// contradiction. In a sorted array a0, a1, ... , a9 (for example) - the minimum
+// maximum sum that has one element as a9, has to one of the pairs : (a0, a9),
+// (a1, a9) ... (a8, a9). since a0 is the smallest, the mim max sum that has a9
+// as an element = a0+a9. Similarly, for a8, its = a1+a8. So on an so forth.
 
 class Solution {
 public:
