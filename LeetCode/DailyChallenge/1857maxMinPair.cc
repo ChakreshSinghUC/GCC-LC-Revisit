@@ -8,7 +8,7 @@ using namespace std;
 // 3. return the max sum of all such pair sums
 
 // Logical proof of correctness : In short - Nature loves symmetry - And the law
-// of symmetry disctates that a sorted array with elements from both ends looks
+// of symmetry dictates that a sorted array with elements from both ends looks
 // more beautiful than anything else. Formally, this can be proven by
 // contradiction. In a sorted array a0, a1, ... , a9 (for example) - the minimum
 // maximum sum that has one element as a9, has to one of the pairs : (a0, a9),
