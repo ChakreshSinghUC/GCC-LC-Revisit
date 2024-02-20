@@ -1,5 +1,11 @@
-#include <iostream>
-
+#include <bits/stdc++.h>
 using namespace std;
-
-int main() { cout << "Hello World!!!\n"; }
+#define ll long long
+class Solution
+{
+public:
+};
+int main()
+{
+  Solution obj;
+}
