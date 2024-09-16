@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalDesignPattern", "CreationalDesignPattern\CreationalDesignPattern.csproj", "{3AAAD388-4C46-421E-973C-DF84F5F44BA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalDesignPattern.Tests", "CreationalDesignPattern.Tests\CreationalDesignPattern.Tests.csproj", "{EA21083D-4991-4DFB-B27D-7487BC6AB453}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AAAD388-4C46-421E-973C-DF84F5F44BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AAAD388-4C46-421E-973C-DF84F5F44BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AAAD388-4C46-421E-973C-DF84F5F44BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AAAD388-4C46-421E-973C-DF84F5F44BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA21083D-4991-4DFB-B27D-7487BC6AB453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA21083D-4991-4DFB-B27D-7487BC6AB453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA21083D-4991-4DFB-B27D-7487BC6AB453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA21083D-4991-4DFB-B27D-7487BC6AB453}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
